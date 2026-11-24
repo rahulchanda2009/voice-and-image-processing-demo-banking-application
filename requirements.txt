@@ -1,0 +1,16 @@
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+python-multipart>=0.0.12
+python-dotenv>=1.0.1
+pydantic>=2.8.0
+google-genai>=1.14.0
+openai>=1.55.0
+numpy>=1.26.0
+librosa>=0.10.2
+soundfile>=0.12.1
+scipy>=1.13.0
+opencv-python-headless>=4.10.0
+Pillow>=10.4.0
+httpx>=0.27.0
+galileo>=0.1.0
+agent-control-sdk>=8.5.0

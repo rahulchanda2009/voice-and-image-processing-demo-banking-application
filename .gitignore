@@ -1,0 +1,55 @@
+# ---------------- Secrets ----------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# ---------------- Python ----------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---------------- Virtual environments ----------------
+.venv/
+venv/
+env/
+
+# ---------------- Local data (biometrics, dummy DB, uploads) ----------------
+*.db
+*.sqlite
+*.sqlite3
+data/
+biometrics/
+voiceprints/
+uploads/
+recordings/
+*.wav
+*.webm
+*.mp3
+
+# ---------------- Generated documents ----------------
+docs/*.docx
+docs/*.pptx
+
+# ---------------- Logs ----------------
+*.log
+logs/
+
+# ---------------- macOS / editors ----------------
+.DS_Store
+.vscode/
+.idea/
+# ---------------- Office temp / lock files ----------------
+~$*
+
+# ---------------- Customer documents and scratch files ----------------
+*.docx
+*.pptx
+agent_control_docs.md
+agentcontrol_docs.md
+probe_*.py
